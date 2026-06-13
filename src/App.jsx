@@ -351,10 +351,8 @@ function App() {
         <aside className="control-panel" aria-label="Controlli palette">
           <div className="brand-row">
             <div>
-              <p className="eyebrow">Web design tool</p>
               <h1>Palette Creator</h1>
             </div>
-            <span className="status-pill">Local only</span>
           </div>
 
           <div className="field-group">
@@ -415,7 +413,7 @@ function App() {
                   setActiveTheme(event.target.checked ? activeTheme : 'light');
                 }}
               />
-              <span>Dark mode opzionale</span>
+              <span>Abilita Dark mode</span>
             </label>
             <div className="segmented" aria-label="Tema attivo">
               <button
